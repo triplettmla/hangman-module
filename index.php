@@ -24,4 +24,4 @@ if (!defined('PHPWS_SOURCE_DIR')) {
 // $view = new HangView($game);
 // \Layout::add($view->show());
 
-\Layout::add('This is hangman.');
+\Layout::add('This is hangman. Hello world');
