@@ -15,7 +15,7 @@ class Hangman {
     public function chooseLetter($letter)
     {
         // TODO: check if the letter is in the word
-        if (subpos($this->word, $letter) === false){
+        if (strpos($this->word, $letter) === false){
           // If not, increment num wrong guesses
           $this->numWrongGuesses += 1;
         }
